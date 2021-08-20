@@ -7,7 +7,7 @@ padding: 0;
 margin: 0;
 }
 :root{
-    --primary-color:#23234a;
+    --primary-color:red;
     --secondry-color:#1c3fa8;
     --dark-color:#002240;
     --light-color:#f4f4f4;
@@ -224,9 +224,7 @@ https://media.geeksforgeeks.org/wp-content/uploads/20200326181026/wave3.png);
         grid-template-rows: 1fr;
 
     }
-
-    .showcase
-    {
+    .showcase{
         height: auto;
     }
     .showcase-text{
@@ -265,7 +263,7 @@ https://media.geeksforgeeks.org/wp-content/uploads/20200326181026/wave3.png);
 /* mobile */
 @media (max-width:500px){
     .navbar{
-        height: auto; 
+        height: 110px; 
     }
     .navbar .flex{
         flex-direction: column;
