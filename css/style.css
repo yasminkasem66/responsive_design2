@@ -227,11 +227,12 @@ https://media.geeksforgeeks.org/wp-content/uploads/20200326181026/wave3.png);
     .showcase{
         height: auto;
     }
-    .showcase-text{
+    .showcase-text,
+    .footer-text{
         text-align: center;
         margin-top: 40px;
     }
-    .showcase-form{
+    .footer-form{
         justify-self: center;
         margin: auto;
 
@@ -271,6 +272,16 @@ https://media.geeksforgeeks.org/wp-content/uploads/20200326181026/wave3.png);
     .navbar ul{
         padding:10px;
         background-color: rgba(0,0,0,0.1);
+    }
+    .showcase-text,
+    .footer-text{
+        text-align: center;
+        margin-top: 40px;
+    }
+    .footer-form{
+        justify-self: center;
+        margin: auto;
+
     }
 }
 /*Utilities*/
