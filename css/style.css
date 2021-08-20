@@ -219,12 +219,14 @@ https://media.geeksforgeeks.org/wp-content/uploads/20200326181026/wave3.png);
     .cli .grid,
     .cloud .grid,
     .features-main .grid,
-    .docs-main .grid{
+    .footer .grid{
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
 
     }
-    .showcase{
+
+    .showcase
+    {
         height: auto;
     }
     .showcase-text{
@@ -263,7 +265,7 @@ https://media.geeksforgeeks.org/wp-content/uploads/20200326181026/wave3.png);
 /* mobile */
 @media (max-width:500px){
     .navbar{
-        height: 110px; 
+        height: auto; 
     }
     .navbar .flex{
         flex-direction: column;
